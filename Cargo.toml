@@ -1,0 +1,13 @@
+[package]
+name = "my_ppm"
+version = "0.1.0"
+authors = ["Florian Bergeron <bergeron.florian@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "my_ppm"
+create-type = ["dylib"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
